@@ -20,9 +20,9 @@
 
 .bg-gradient-primary, .main .content .section img, .main .content .main img, .container-setup, .subnav, .text, .button, .form {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#a84f26), to(#552813));
+  background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(black));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #a84f26, #552813);
+  background: -moz-linear-gradient(top, #333333, black);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary);
   /* For Internet Explorer 8 */
@@ -31,9 +31,9 @@
 
 .bg-gradient-reverse {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#552813), to(#a84f26));
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(#333333));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #552813, #a84f26);
+  background: -moz-linear-gradient(top, black, #333333);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary, endColorstr=$primary-light);
   /* For Internet Explorer 8 */
@@ -42,9 +42,9 @@
 
 .bg-gradient-secondary, .button p.link, .button p.link:hover {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#ec8653), to(#e76625));
+  background: -webkit-gradient(linear, left top, left bottom, from(#9d8a60), to(#7d6e4d));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #ec8653, #e76625);
+  background: -moz-linear-gradient(top, #9d8a60, #7d6e4d);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
@@ -52,11 +52,13 @@
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #fff4e2;
+  background: #9d8a60;
+  color: black;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #fff4e2;
+  background: #9d8a60;
+  color: black;
 }
 
 .corner-top-left {
@@ -223,9 +225,9 @@ b {
 
 .bg-gradient-primary, .main .content .section img, .main .content .main img, .container-setup, .subnav, .text, .button, .form {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#a84f26), to(#552813));
+  background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(black));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #a84f26, #552813);
+  background: -moz-linear-gradient(top, #333333, black);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary);
   /* For Internet Explorer 8 */
@@ -234,9 +236,9 @@ b {
 
 .bg-gradient-reverse {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#552813), to(#a84f26));
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(#333333));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #552813, #a84f26);
+  background: -moz-linear-gradient(top, black, #333333);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary, endColorstr=$primary-light);
   /* For Internet Explorer 8 */
@@ -245,9 +247,9 @@ b {
 
 .bg-gradient-secondary, .button p.link, .button p.link:hover {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#ec8653), to(#e76625));
+  background: -webkit-gradient(linear, left top, left bottom, from(#9d8a60), to(#7d6e4d));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #ec8653, #e76625);
+  background: -moz-linear-gradient(top, #9d8a60, #7d6e4d);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
@@ -255,11 +257,13 @@ b {
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #fff4e2;
+  background: #9d8a60;
+  color: black;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #fff4e2;
+  background: #9d8a60;
+  color: black;
 }
 
 .corner-top-left {
@@ -354,8 +358,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .banner .center {
   padding: 30px 0 15px;
-  border-left: 1px solid #da5918;
-  border-right: 1px solid #da5918;
+  border-left: 1px solid #6d6043;
+  border-right: 1px solid #6d6043;
 }
 .banner .center .content {
 @extent .box;
@@ -378,8 +382,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .body .center {
   padding: 15px 0;
-  border-left: 1px solid #da5918;
-  border-right: 1px solid #da5918;
+  border-left: 1px solid #6d6043;
+  border-right: 1px solid #6d6043;
 }
 .body .center .content {
 @extent .box;
@@ -453,7 +457,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   top: 5px;
   width: 7px;
   height: 7px;
-  background: #e76625;
+  background: #7d6e4d;
   font-size: 11px;
   text-align: center;
 }
@@ -469,10 +473,10 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .link p a {
   font-size: 12px;
-  color: #e76625;
+  color: #7d6e4d;
 }
 .link p a:hover {
-  color: #ec8653;
+  color: #9d8a60;
   text-decoration: none;
 }
 
@@ -508,7 +512,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   padding: 0;
   color: white;
   text-align: center;
-  border: 1px solid #552813;
+  border: 1px solid black;
 }
 .button p.link a {
   display: block;
@@ -558,7 +562,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   width: 368px;
   margin: 7px 0 10px 215px;
   padding: 0 3em 0.5em 7px;
-  color: #552813 !important;
+  color: black !important;
   font-size: 22px;
   font-weight: bolder;
   word-spacing: 0.1em;
@@ -569,7 +573,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   width: 583px;
   margin: 15px 0 0 0;
   padding: 0 0 0 7px;
-  color: #e76625;
+  color: #7d6e4d;
   font-size: 13px;
   font-weight: bold;
   text-align: justify;
@@ -589,16 +593,16 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   margin-bottom: 0;
 }
 .main .content .section p a, .main .content .main p a {
-  color: #a84f26;
+  color: #333333;
   text-decoration: none;
 }
 .main .content .section p a:hover, .main .content .main p a:hover {
-  color: #552813;
+  color: black;
 }
 
 table#services {
   border-collapse: none !important;
-  border: 1px solid #552813;
+  border: 1px solid black;
   margin: 30px 0;
 }
 table#services tr, table#services td {
@@ -613,7 +617,7 @@ table#services tr.header td {
   font-size: 115%;
   font-weight: bold;
   color: white;
-  background: #a84f26;
+  background: #333333;
   border: 1px solid transparent;
   border-bottom: 1px solid #dadada;
 }
@@ -644,7 +648,7 @@ table#services td.y {
   clear: both;
   width: 280px;
   margin: 0 0 30px 0;
-  border: 1px solid #d05c21;
+  border: 1px solid black;
   z-index: 20;
 }
 

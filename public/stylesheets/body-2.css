@@ -42,9 +42,9 @@
 
 .bg-gradient-secondary, .button p.link, .button p.link:hover {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#9d8a60), to(#7d6e4d));
+  background: -webkit-gradient(linear, left top, left bottom, from(#a4d266), to(#8dc63f));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #9d8a60, #7d6e4d);
+  background: -moz-linear-gradient(top, #a4d266, #8dc63f);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
@@ -52,12 +52,12 @@
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #9d8a60;
+  background: #a4d266;
   color: black;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #9d8a60;
+  background: #a4d266;
   color: black;
 }
 
@@ -191,6 +191,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 .contact-form iframe, .form iframe {
   position: relative;
   top: -38px;
+  margin-bottom: -38px;
 }
 
 p {
@@ -247,9 +248,9 @@ b {
 
 .bg-gradient-secondary, .button p.link, .button p.link:hover {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#9d8a60), to(#7d6e4d));
+  background: -webkit-gradient(linear, left top, left bottom, from(#a4d266), to(#8dc63f));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #9d8a60, #7d6e4d);
+  background: -moz-linear-gradient(top, #a4d266, #8dc63f);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
@@ -257,12 +258,12 @@ b {
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #9d8a60;
+  background: #a4d266;
   color: black;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #9d8a60;
+  background: #a4d266;
   color: black;
 }
 
@@ -358,8 +359,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .banner .center {
   padding: 30px 0 15px;
-  border-left: 1px solid #6d6043;
-  border-right: 1px solid #6d6043;
+  border-left: 1px solid #80b636;
+  border-right: 1px solid #80b636;
 }
 .banner .center .content {
 @extent .box;
@@ -382,8 +383,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .body .center {
   padding: 15px 0;
-  border-left: 1px solid #6d6043;
-  border-right: 1px solid #6d6043;
+  border-left: 1px solid #80b636;
+  border-right: 1px solid #80b636;
 }
 .body .center .content {
 @extent .box;
@@ -457,7 +458,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   top: 5px;
   width: 7px;
   height: 7px;
-  background: #7d6e4d;
+  background: #8dc63f;
   font-size: 11px;
   text-align: center;
 }
@@ -473,10 +474,10 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .link p a {
   font-size: 12px;
-  color: #7d6e4d;
+  color: #8dc63f;
 }
 .link p a:hover {
-  color: #9d8a60;
+  color: #a4d266;
   text-decoration: none;
 }
 
@@ -543,7 +544,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 .main .content .section, .main .content .main {
   position: relative;
   padding: 0 0 30px 0;
-  border-bottom: 1px dotted #fff4e2;
+  border-bottom: 1px dotted #efefef;
 }
 .main .content .section:last-child, .main .content .main:last-child {
   padding-bottom: 0;
@@ -573,7 +574,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   width: 583px;
   margin: 15px 0 0 0;
   padding: 0 0 0 7px;
-  color: #7d6e4d;
+  color: #8dc63f;
   font-size: 13px;
   font-weight: bold;
   text-align: justify;

@@ -24,73 +24,30 @@
 html
 	margin: 0
 	padding: 0
-	//background: $html-bg
+	background: url(/images/bg.jpg) no-repeat top left fixed
 
 body
 	//@extend .bg-gradient-primary
 	margin: 0
 	padding: 0
-	//background: $body-bg
-
-#one.bg1
-	position: fixed
-	top: 0px
-	left: 0px
-	width: 100%
-	height: 100%
-	background: url(/images/bg.jpg) no-repeat top center scroll
-	-webkit-background-size: cover
-	-moz-background-size: cover
-	-o-background-size: cover
-	background-size: cover
+	background: transparent
+	border-top: 4px solid #000
 
 .content
 	@extend .box
 	position: relative
-	width: 100%
-	margin: 0
+	width: 960px
+	margin: 0 auto
 	padding: 0
 	color: $secondary-light
-	.top
-		@extend .box
-		@extend .corner-all
-		position: relative
-		width: 900px
-		margin: 75px auto 0
-		padding: 0
-		.logo
+	
+.apple-footer
+	@extend .box
+	margin: 100px 0 100px 0
+	p
+		text-align: center
+		img
 			position: relative
-			width: 900px
-			height: 275px
-			margin: 0 auto
-			z-index: 44
-	.bottom
-		@extend .box
-		position: relative
-		width: 900px
-		margin: 30px auto
-		p
-			font-family: "EmbedFont-1"
-			margin: 0 auto
-			font-size: 17px
-			font-weight: 100
-			text-align: center
-			text-shadow: 2px 2px 1px #000
-			line-height: 1.5em
-			letter-spacing: 0.05em
-			a
-				color: #fff
-				&:hover
-					color: $secondary
-		h1
-			font-family: "EmbedFont-1"
-			margin: 0 auto
-			font-size: 60px
-			font-weight: 100
-			text-align: center
-			text-shadow: 5px 5px 3px #000
-			line-height: 1.5em
-			letter-spacing: 0.05em
 			
 // INHERITED FORMATTING
 .text

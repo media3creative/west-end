@@ -4,5 +4,22 @@
 
 %link{:href => "stylesheets/body-1.css", :media => "all", :rel => "stylesheet", :type => "text/css"}
 
-- content_for :background do
-  #one.bg1
+.splash
+  .banner
+    %h1 Think Technology. Think Solutions.
+    %h1.indent Think . . .
+    .logo
+      %img{:src => "/images/logo.png", :alt => "Mobile MedSoft Logo"}
+  
+  .info-box
+    .text
+      %h3 Mobile MedSoft specializes in mobile software solutions to the healthcare market.
+      %p We are committed to streamlining patient care among healthcare professionals and patient care facilities, and reducing healthcare costs. Please check back soon for more information.
+      %p
+        %a{:href => "mailto:info@mobilemedsoft.com"}info@mobilemedsoft.com
+        = " | "
+        %a{:href => "/privacy"}Privacy Policy
+    .form
+      %p.contact-form
+        %iframe.contact{:allowtransparency => "true", :frameborder => "0", :height => "440", :scrolling => "no", :src => "http://media3creative.wufoo.com/embed/w7w8z9/", :width => "100%", :border => "none"}       
+    

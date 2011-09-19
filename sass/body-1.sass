@@ -8,93 +8,123 @@
 @import partials/color
 @import partials/corners
 
-.body
+.splash
 	@extend .box
-	@extend .clearfix
-	position: relative
-	width: 100%
+	width: 600px
 	margin: 0 auto
-	.center
-		@extend .center-container
-		@extend .clearfix
-		padding: ($v-gap/2) 0
-		border-left: 1px solid $secondary-dark
-		border-right: 1px solid $secondary-dark
-		.content
-			@extent .box
-			width: $inside-width
-			margin: 0 auto
+	.banner
+		@extend .box
+		margin: 55px 0 0 0
+		h1
+			font-family: "Lucida Grande", Verdana, Arial, sans-serif
+			margin: 0 0 10px 0
 			padding: 0
-			.left
-				a.container
-					@extend .container-setup
-					margin: 0px ($h-gap - 1) 0 0
-					//background: $accent-color url("/images/home_left.jpg") no-repeat
-			.middle
-				a.container
-					@extend .container-setup
-					margin: 0px ($h-gap - 1) 0 0
-					//background: $accent-color url("/images/home_center.jpg") no-repeat
-			.right
-				a.container
-					@extend .container-setup
-					margin: 0
-					//background: $accent-color url("/images/home_right.jpg") no-repeat
-
-
-.container-setup
-	@extend .box
-	@extend .corner-all
-	@extend .font-helvetica
-	@extend .clearfix
-	@extend .bg-gradient-primary
-	position: relative
-	+float-left
-	width: (($inside-width - ($h-gap * 2)) / 3)
-	height: $option-height
-	//background: $option-bg
-	border: 1px solid $option-border
-	z-index: 20
-	h1
-		@extend .box
-		@extend .font-helvetica
-		position: absolute
-		top: ($v-gap * 0.75)
-		left: ($h-gap * 0.75)
-		margin: 0 ($h-gap * 0.75) 0 0
-		color: $option-title
-		font-size: 24px
-		font-weight: bold
-		word-spacing: .1em
-		letter-spacing: -0.05em
-	h3
-		@extend .box
-		font-family: "EmbedFont-1"
-		position: absolute
-		top: 75px
-		left: ($h-gap * 0.75)
-		margin: 0 76px 12px 0
-		color: $option-text
-		font-size: 12px
-		font-weight: 200
-		line-height: 1.3em
-	p.link
+			color: #111
+			font-size: 30px
+			font-weight: 100
+			text-align: center
+			text-shadow: 0px -1px 0px #aaa
+			line-height: 30px
+		.indent
+			text-indent: -305px
+		.logo
+			position: relative
+			margin: -24px 0px 0px 150px
+			img
+				width: 300px
+				height: 131px
+	.info-box
 		@extend .box
 		@extend .corner-all
-		font-family: "EmbedFont-1"
-		position: absolute
-		bottom: ($v-gap * 0.5)
-		left: ($h-gap * 0.75)
-		display: inline
-		color: $option-link
-		font-size: 11px
-		font-weight: 200
-		text-decoration: none
-	&:hover
-		text-decoration: none
-		@extend .opaque
-		
-		
-		
-		
-		
+		@extend .clearfix
+		width: 100%
+		margin: 40px 0 0 0
+		padding: 14px
+		background: $accent
+		border-top: 2px solid #ddd
+		border-left: 2px solid #ddd
+		border-bottom: 2px solid #777
+		border-right: 2px solid #777
+		.text
+			@extend .box
+			position: relative
+			+float-left
+			width: 279px
+			height: 400px
+			margin: 0
+			padding: 0 7px 14px 0
+			color: #111
+			font-family: "Lucida Grande", Verdana, Arial, sans-serif
+			border-right: 2px solid #777
+			h3
+				margin: 0 0 1em 0
+				padding-right: 3px
+				font-size: 18px
+				line-height: 22px
+				text-align: right
+			p
+				padding-right: 3px
+				font-size: 11.5px
+				line-height: 1.3em
+				text-align: right
+				a
+					margin: auto 0.5em
+					color: $secondary
+					&:hover
+						color: #000
+						text-decoration: none
+		.form
+			@extend .box
+			position: relative
+			+float-left
+			width: 279px
+			margin: 0 0 0 7px
+			padding: 0 0 0 7px
+			
+.privacy
+	@extend .box
+	width: 800px
+	margin: 0 auto
+	.info-box
+		@extend .box
+		@extend .corner-all
+		@extend .clearfix
+		width: 100%
+		margin: 40px 0 0 0
+		padding: 14px
+		background: $accent
+		border-top: 2px solid #ddd
+		border-left: 2px solid #ddd
+		border-bottom: 2px solid #777
+		border-right: 2px solid #777
+		.text
+			@extend .box
+			position: relative
+			+float-left
+			margin: 0
+			padding: 0 7px 14px 0
+			color: #111
+			font-family: "Lucida Grande", Verdana, Arial, sans-serif
+			h2
+				margin: 0 0 1em 0
+				padding-right: 3px
+				font-size: 26px
+				line-height: 22px
+				text-align: left			
+			h3
+				margin: 0 0 0.3em 0
+				padding-right: 3px
+				color: $secondary
+				font-size: 18px
+				line-height: 22px
+				text-align: left
+			p
+				padding-right: 3px
+				font-size: 11.5px
+				line-height: 1.3em
+				text-align: left
+				a
+					color: $secondary
+					&:hover
+						color: #000
+						text-decoration: none

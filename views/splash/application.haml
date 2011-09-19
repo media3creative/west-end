@@ -1,5 +1,5 @@
-- @sitename = "Premium Car Wraps"
-- @title = ""
+- @sitename = "Mobile MedSoft"
+- @title = "Mobile Software Solutions to the Healthcare Market"
 
 // MAIN NAVIGATION
 - @link1 = ["Home", "/home"]
@@ -9,24 +9,14 @@
 - @link5 = ["Contact", "/contact"]
 
 // FOOTER LINKS
-- @linkA1 = ["Anna Jennings", "ssss"]
-- @linkA2 = ["(713) 398-8474", "ssss"]
-- @linkA3 = ["annaknows@ymail.com", "mailto:annaknows@ymail.com"]
-- @linkA4 = ["link name", "/path"]
-- @linkA5 = ["link name", "/path"]
-
-- @linkB1 = ["Facebook", "http://www.facebook.com/annaknowsfanpage"]
-- @linkB2 = ["Twitter", "http://twitter.com/annaknowscom"]
-- @linkB3 = ["LinkedIn", "http://www.linkedin.com/in/annaknows"]
-- @linkB4 = ["link name", "/path"]
-- @linkB5 = ["link name", "/path"]
+- @linkA1 = ["ssss", "ssss"]
 
 
 
 !!! 5
 %html
   %head
-    %title= @sitename + @title + @subtitle
+    %title= @title + " - " + @sitename
 
     %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
 
@@ -169,20 +159,12 @@
 
 
   %body{:class => @body_class}
-    = yield :background
-
     .content
-      .top
-        .logo
-          %img{:src => "/images/logo.png"}
-      .bottom
-        %h1 Coming Soon
-        %p
-          For information and details, please contact:
-          %br
-          %a{:href => "mailto:info@premiumcarwraps.net"}info@premiumcarwraps.net
-    
-                  
+      = yield
+      
+    .apple-footer
+      %p
+        %img{:src => "/images/apple-reseller.png", :alt => "Apple Authorized Reseller"}
     .m3c-bar
       .copyright
         :markdown

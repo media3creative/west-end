@@ -42,9 +42,9 @@
 
 .bg-gradient-secondary {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#a4d266), to(#8dc63f));
+  background: -webkit-gradient(linear, left top, left bottom, from(#1a1a1a), to(black));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #a4d266, #8dc63f);
+  background: -moz-linear-gradient(top, #1a1a1a, black);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
@@ -52,12 +52,12 @@
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
@@ -170,6 +170,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   margin: 0 auto;
   padding: 0;
   background: white;
+  background: url(/images/contBG.png) repeat-y;
 }
 
 .box, .center-container, .image-slider .center, .image-slider, .image-slider .center .captionContainer, .image-slider .center .captionContainer h1, .image-slider .center .captionContainer h3, .image-slider .center .captionContainer p.link, .nivoSlider, .nivoSlider img, #slider-wrapper, #slider {
@@ -200,7 +201,7 @@ p {
 }
 
 b {
-  color: #aaaaaa !important;
+  color: #999999 !important;
   font-weight: bold;
 }
 
@@ -248,9 +249,9 @@ b {
 
 .bg-gradient-secondary {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#a4d266), to(#8dc63f));
+  background: -webkit-gradient(linear, left top, left bottom, from(#1a1a1a), to(black));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #a4d266, #8dc63f);
+  background: -moz-linear-gradient(top, #1a1a1a, black);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
@@ -258,12 +259,12 @@ b {
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
@@ -359,8 +360,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .image-slider .center {
   padding: 30px 0 15px;
-  border-left: 1px solid #80b636;
-  border-right: 1px solid #80b636;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 .image-slider .center .captionContainer {
   position: absolute;
@@ -369,7 +370,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   left: 0;
   margin: 0;
   padding: 5px;
-  background: #8dc63f;
+  background: black;
 }
 .image-slider .center .captionContainer h1 {
   margin: 5px 15px;

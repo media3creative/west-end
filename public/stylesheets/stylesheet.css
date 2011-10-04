@@ -82,9 +82,9 @@ table {
 
 .bg-gradient-secondary {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#a4d266), to(#8dc63f));
+  background: -webkit-gradient(linear, left top, left bottom, from(#1a1a1a), to(black));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #a4d266, #8dc63f);
+  background: -moz-linear-gradient(top, #1a1a1a, black);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
@@ -92,12 +92,12 @@ table {
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
@@ -280,9 +280,9 @@ select, input, textarea {
 
 .bg-gradient-secondary {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#a4d266), to(#8dc63f));
+  background: -webkit-gradient(linear, left top, left bottom, from(#1a1a1a), to(black));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #a4d266, #8dc63f);
+  background: -moz-linear-gradient(top, #1a1a1a, black);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
@@ -290,12 +290,12 @@ select, input, textarea {
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
@@ -408,9 +408,10 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   margin: 0 auto;
   padding: 0;
   background: white;
+  background: url(/images/contBG.png) repeat-y;
 }
 
-.box, .center-container, .content, .apple-footer {
+.box, .center-container, .content {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -438,7 +439,7 @@ p {
 }
 
 b {
-  color: #aaaaaa !important;
+  color: #999999 !important;
   font-weight: bold;
 }
 
@@ -486,9 +487,9 @@ b {
 
 .bg-gradient-secondary {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#a4d266), to(#8dc63f));
+  background: -webkit-gradient(linear, left top, left bottom, from(#1a1a1a), to(black));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #a4d266, #8dc63f);
+  background: -moz-linear-gradient(top, #1a1a1a, black);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
@@ -496,12 +497,12 @@ b {
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
@@ -1315,9 +1316,9 @@ p:last-child {
 
 .bg-gradient-secondary {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#a4d266), to(#8dc63f));
+  background: -webkit-gradient(linear, left top, left bottom, from(#1a1a1a), to(black));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #a4d266, #8dc63f);
+  background: -moz-linear-gradient(top, #1a1a1a, black);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
@@ -1325,12 +1326,12 @@ p:last-child {
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
@@ -1342,14 +1343,14 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   height: 20px;
   overflow: hidden;
   *zoom: 1;
-  color: white;
+  color: #999999;
   background: black;
   font-size: 9px;
   font-weight: thin;
   text-transform: uppercase;
   line-height: 1.4em;
   letter-spacing: 0.5px;
-  border-top: 1px solid #8dc63f;
+  border-top: 1px solid black;
   z-index: 100;
 }
 .m3c-bar .copyright {
@@ -1365,11 +1366,11 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   margin: 3px 0 0 0;
 }
 .m3c-bar a {
-  color: #8dc63f;
+  color: white;
   text-decoration: none;
 }
 .m3c-bar a:hover {
-  color: #80b636;
+  color: #999999;
   border-bottom: 0px solid #dadada;
   text-decoration: none;
 }
@@ -1432,14 +1433,13 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 html {
   margin: 0;
   padding: 0;
-  background: url(/images/bg.jpg) no-repeat top left fixed;
+  overflow: hidden;
 }
 
 body {
   margin: 0;
   padding: 0;
   background: transparent;
-  border-top: 4px solid black;
 }
 
 .content {
@@ -1447,17 +1447,7 @@ body {
   width: 960px;
   margin: 0 auto;
   padding: 0;
-  color: #a4d266;
-}
-
-.apple-footer {
-  margin: 100px 0 100px 0;
-}
-.apple-footer p {
-  text-align: center;
-}
-.apple-footer p img {
-  position: relative;
+  color: #1a1a1a;
 }
 
 .text {

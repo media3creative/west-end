@@ -42,9 +42,9 @@
 
 .bg-gradient-secondary {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#a4d266), to(#8dc63f));
+  background: -webkit-gradient(linear, left top, left bottom, from(#1a1a1a), to(black));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #a4d266, #8dc63f);
+  background: -moz-linear-gradient(top, #1a1a1a, black);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
@@ -52,12 +52,12 @@
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
@@ -170,6 +170,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   margin: 0 auto;
   padding: 0;
   background: white;
+  background: url(/images/contBG.png) repeat-y;
 }
 
 .box, .center-container, .center, #header, .center #logo1, ul#topnav a.topnav, ul#topnav .sub ul li a {
@@ -200,7 +201,7 @@ p {
 }
 
 b {
-  color: #aaaaaa !important;
+  color: #999999 !important;
   font-weight: bold;
 }
 
@@ -248,9 +249,9 @@ b {
 
 .bg-gradient-secondary {
   /* For WebKit (Safari, Google Chrome etc) */
-  background: -webkit-gradient(linear, left top, left bottom, from(#a4d266), to(#8dc63f));
+  background: -webkit-gradient(linear, left top, left bottom, from(#1a1a1a), to(black));
   /* For Mozilla/Gecko (Firefox etc) */
-  background: -moz-linear-gradient(top, #a4d266, #8dc63f);
+  background: -moz-linear-gradient(top, #1a1a1a, black);
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
@@ -258,12 +259,12 @@ b {
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #a4d266;
+  background: #1a1a1a;
   color: black;
 }
 
@@ -386,7 +387,7 @@ ul#topnav {
   float: right;
   margin: 20px 30px 0 235px;
   padding: 0;
-  color: #aaaaaa;
+  color: #999999;
   font-size: 11px;
   letter-spacing: 0.05em;
   list-style: none;
@@ -413,12 +414,12 @@ ul#topnav a.topnav {
   font-size: 13px;
   text-align: center;
   text-transform: uppercase;
-  border-left: 1px solid #8dc63f;
-  border-right: 1px solid #8dc63f;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
 ul#topnav li:hover a.topnav, ul#topnav li a.topnav:hover {
-  color: #8dc63f;
+  color: black;
   background: transparent;
 }
 
@@ -431,7 +432,7 @@ ul#topnav li .sub {
   left: 1px;
   background: #dadada;
   padding: 5px 0 6px 0;
-  border-top: 2px solid #8dc63f;
+  border-top: 2px solid black;
   z-index: 50;
 }
 
@@ -486,5 +487,5 @@ ul#topnav .sub ul li h2 {
 }
 
 .navigation-hover, body.one a#one, body.two a#two, body.five a#five, body.four a#four, body.three a#three {
-  color: #8dc63f;
+  color: black;
 }

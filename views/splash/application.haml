@@ -1,5 +1,5 @@
-- @sitename = "Mobile MedSoft"
-- @title = "Mobile Software Solutions to the Healthcare Market"
+- @sitename = "The West End - A Gastropub"
+- @title = ""
 
 // MAIN NAVIGATION
 - @link1 = ["Home", "/home"]
@@ -16,7 +16,7 @@
 !!! 5
 %html
   %head
-    %title= @title + " - " + @sitename
+    %title=@sitename
 
     %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
 
@@ -161,10 +161,7 @@
   %body{:class => @body_class}
     .content
       = yield
-      
-    .apple-footer
-      %p
-        %img{:src => "/images/apple-reseller.png", :alt => "Apple Authorized Reseller"}
+
     .m3c-bar
       .copyright
         :markdown

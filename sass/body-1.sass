@@ -8,123 +8,59 @@
 @import partials/color
 @import partials/corners
 
-.splash
+.body
 	@extend .box
-	width: 600px
+	@extend .clearfix
+	position: relative
+	width: 100%
 	margin: 0 auto
-	.banner
-		@extend .box
-		margin: 55px 0 0 0
-		h1
-			font-family: "Lucida Grande", Verdana, Arial, sans-serif
-			margin: 0 0 10px 0
+	.center
+		@extend .center-container
+		@extend .clearfix
+		height: 1200px
+		padding: ($v-gap/2) 0
+		.content
+			@extent .box
+			width: $inside-width
+			margin: 0 auto
 			padding: 0
-			color: #111
-			font-size: 30px
-			font-weight: 100
-			text-align: center
-			text-shadow: 0px -1px 0px #aaa
-			line-height: 30px
-		.indent
-			text-indent: -305px
-		.logo
-			position: relative
-			margin: -24px 0px 0px 150px
-			img
-				width: 300px
-				height: 131px
-	.info-box
-		@extend .box
-		@extend .corner-all
-		@extend .clearfix
-		width: 100%
-		margin: 40px 0 0 0
-		padding: 14px
-		background: $accent
-		border-top: 2px solid #ddd
-		border-left: 2px solid #ddd
-		border-bottom: 2px solid #777
-		border-right: 2px solid #777
-		.text
-			@extend .box
-			position: relative
-			+float-left
-			width: 279px
-			height: 400px
-			margin: 0
-			padding: 0 7px 14px 0
-			color: #111
-			font-family: "Lucida Grande", Verdana, Arial, sans-serif
-			border-right: 2px solid #777
-			h3
-				margin: 0 0 1em 0
-				padding-right: 3px
-				font-size: 18px
-				line-height: 22px
-				text-align: right
-			p
-				padding-right: 3px
-				font-size: 11.5px
-				line-height: 1.3em
-				text-align: right
-				a
-					margin: auto 0.5em
-					color: $secondary
-					&:hover
-						color: #000
-						text-decoration: none
-		.form
-			@extend .box
-			position: relative
-			+float-left
-			width: 279px
-			margin: 0 0 0 7px
-			padding: 0 0 0 7px
-			
-.privacy
+
+.banner
 	@extend .box
-	width: 800px
-	margin: 0 auto
-	.info-box
+	margin: 40px 0 0 0
+	.logo
+		p.textcenter
+			text-align: center
+			img
+				width: 600px
+				height: 140px
+.info-box
+	@extend .box
+	@extend .clearfix
+	width: 100%
+	margin: 40px 0 0 0
+	.text
 		@extend .box
-		@extend .corner-all
-		@extend .clearfix
-		width: 100%
-		margin: 40px 0 0 0
-		padding: 14px
-		background: $accent
-		border-top: 2px solid #ddd
-		border-left: 2px solid #ddd
-		border-bottom: 2px solid #777
-		border-right: 2px solid #777
-		.text
-			@extend .box
-			position: relative
-			+float-left
-			margin: 0
-			padding: 0 7px 14px 0
-			color: #111
-			font-family: "Lucida Grande", Verdana, Arial, sans-serif
-			h2
-				margin: 0 0 1em 0
-				padding-right: 3px
-				font-size: 26px
-				line-height: 22px
-				text-align: left			
-			h3
-				margin: 0 0 0.3em 0
-				padding-right: 3px
-				color: $secondary
-				font-size: 18px
-				line-height: 22px
-				text-align: left
-			p
-				padding-right: 3px
-				font-size: 11.5px
-				line-height: 1.3em
-				text-align: left
-				a
-					color: $secondary
-					&:hover
-						color: #000
-						text-decoration: none
+		position: relative
+		font-family: "EmbedFont-1"
+		margin: 0
+		color: #000
+		text-align: center
+		h3
+			font-family: "Arial Black"
+			margin: 0 0 1em 0
+			padding-right: 3px
+			font-size: 20px
+			line-height: 22px
+			text-transform: uppercase
+			word-spacing: 0.1em
+			letter-spacing: 0.05em
+		p
+			padding-right: 3px
+			font-size: 14px
+			line-height: 1.3em
+			a
+				color: $gray-med
+				&:hover
+					color: #000
+					text-decoration: none

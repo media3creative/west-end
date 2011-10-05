@@ -66,7 +66,7 @@ table {
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary);
   /* For Internet Explorer 8 */
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary)";
 }
 
 .bg-gradient-reverse {
@@ -77,7 +77,7 @@ table {
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary, endColorstr=$primary-light);
   /* For Internet Explorer 8 */
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary, endColorstr=$primary-light);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary, endColorstr=$primary-light)";
 }
 
 .bg-gradient-secondary {
@@ -88,7 +88,7 @@ table {
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary)";
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
@@ -264,7 +264,7 @@ select, input, textarea {
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary);
   /* For Internet Explorer 8 */
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary)";
 }
 
 .bg-gradient-reverse {
@@ -275,7 +275,7 @@ select, input, textarea {
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary, endColorstr=$primary-light);
   /* For Internet Explorer 8 */
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary, endColorstr=$primary-light);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary, endColorstr=$primary-light)";
 }
 
 .bg-gradient-secondary {
@@ -286,7 +286,7 @@ select, input, textarea {
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary)";
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
@@ -471,7 +471,7 @@ b {
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary);
   /* For Internet Explorer 8 */
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary)";
 }
 
 .bg-gradient-reverse {
@@ -482,7 +482,7 @@ b {
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary, endColorstr=$primary-light);
   /* For Internet Explorer 8 */
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary, endColorstr=$primary-light);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary, endColorstr=$primary-light)";
 }
 
 .bg-gradient-secondary {
@@ -493,7 +493,7 @@ b {
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary)";
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
@@ -1300,7 +1300,7 @@ p:last-child {
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary);
   /* For Internet Explorer 8 */
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary)";
 }
 
 .bg-gradient-reverse {
@@ -1311,7 +1311,7 @@ p:last-child {
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary, endColorstr=$primary-light);
   /* For Internet Explorer 8 */
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary, endColorstr=$primary-light);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary, endColorstr=$primary-light)";
 }
 
 .bg-gradient-secondary {
@@ -1322,7 +1322,7 @@ p:last-child {
   /* For Internet Explorer 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
   /* For Internet Explorer 8 */
-  -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=$secondary-light, endColorstr=$secondary)";
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {

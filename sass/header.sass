@@ -10,35 +10,33 @@
 
 #header
 	@extend .box
-	@extend .bg-gradient-primary
 	width: 100%
 	height: $header-height
 	margin: 0
 	padding: 0
 	border-bottom: 2px solid $header-border
-.center
-	@extend .center-container
-	@extend .bg-gradient-primary
-	@extend .box
-	#logo1
+	.center
+		@extend .center-container
 		@extend .box
-		position: absolute
-		top: (($header-height - $logoH)/2)
-		left: (5px	+ $v-gap)
-		margin: 0
-		a
-			display: block
+		#logo1
+			@extend .box
+			position: absolute
+			top: (($header-height - $logoH)/2)
+			left: (5px	+ $v-gap)
 			margin: 0
-			padding: 0
-			&:hover
-				@extend .opaque
-			img
-				width: $logoW
-				height: $logoH
+			a
+				display: block
 				margin: 0
 				padding: 0
-				border: 0
-				background: transparent
+				&:hover
+					@extend .opaque
+				img
+					width: $logoW
+					height: $logoH
+					margin: 0
+					padding: 0
+					border: 0
+					background: transparent
 		
 			
 // NAVMENU

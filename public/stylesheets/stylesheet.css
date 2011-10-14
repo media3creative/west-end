@@ -38,7 +38,7 @@ table {
   border-spacing: 0;
 }
 
-.font-helvetica, body, .m3c-bar {
+.font-helvetica, body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -236,7 +236,7 @@ select, input, textarea {
   font-size: 14px;
 }
 
-.font-helvetica, body, .m3c-bar {
+.font-helvetica, body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -443,7 +443,7 @@ b {
   font-weight: bold;
 }
 
-.font-helvetica, body, .m3c-bar {
+.font-helvetica, body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -1336,6 +1336,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 .m3c-bar {
+  font-family: "EmbedFont-0";
   position: fixed;
   left: 0;
   bottom: 0;
@@ -1345,11 +1346,11 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   *zoom: 1;
   color: #999999;
   background: black;
-  font-size: 9px;
-  font-weight: thin;
+  font-size: 6.5px;
+  font-weight: 100;
   text-transform: uppercase;
   line-height: 1.4em;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   border-top: 1px solid black;
   z-index: 100;
 }
@@ -1357,20 +1358,20 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   display: inline;
   float: left;
   padding-left: 50px;
-  margin: 3px 0 0 0;
+  margin: 4px 0 0 0;
 }
 .m3c-bar .powered-by {
   display: inline;
   float: right;
   padding-right: 50px;
-  margin: 3px 0 0 0;
+  margin: 4px 0 0 0;
 }
 .m3c-bar a {
-  color: white;
+  color: #999999;
   text-decoration: none;
 }
 .m3c-bar a:hover {
-  color: #999999;
+  color: white;
   border-bottom: 0px solid #dadada;
   text-decoration: none;
 }
